@@ -1,0 +1,79 @@
+* {
+  font-family: "poppins";
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  padding: 50px 11%;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body.dark{
+  background-color: rgb(15, 15, 15);
+}
+.h1.dark{
+  color: white;
+
+
+}
+.search{
+  margin: 40px 0;
+  width: calc(100% - 30px);
+  padding:15px ;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+  
+}
+button{
+  border: none;
+  padding: 5px 10px;
+  border-radius:10px ;
+}
+.notes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.note{
+  background-color: rgb(255, 255, 91);
+  border-radius:10px ;
+  height: 200px;
+  padding: 20px;
+  position: relative;
+}
+.add-note{
+  background-color: #67d7cc;
+  border-radius:10px ;
+  height: 200px;
+  padding: 20px;
+  position: relative;
+}
+.save{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.trash{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.date{
+  position: absolute;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.829);
+  bottom: 20px;
+  left: 20px;
+}
+.note-input{
+  width: 100%;
+  background-color: transparent;border: none;
+  outline: none;
+}
